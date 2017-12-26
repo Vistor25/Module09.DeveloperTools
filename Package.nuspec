@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ImportantPackage</id>
+    <version>1.0.0</version>
+    <authors>Victor</authors>
+    <owners>Victor</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Important package description</description>
+    <releaseNotes>Important package : Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>ImportantPackage Tag1 Tag2</tags>
+    <dependencies>
+      <dependency id="Microsoft.Net.Http" version="2.2.29" />
+    </dependencies>
+  </metadata>
+  
+  <files>
+    <file src="CustomNuGetPackage\Class1.cs" target="content\Class1.cs" />
+    <file src="CustomNuGetPackage\Info.html" target="content\Info.html" />
+    <file src="CustomNuGetPackage\app.config.install.xdt" target="content" />
+    <file src="CustomNuGetPackage\app.config.uninstall.xdt" target="content" />
+  </files>
+</package>

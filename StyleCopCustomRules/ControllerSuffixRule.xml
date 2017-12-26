@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<SourceAnalyzer Name="Custom rules">
+  <Description>
+    Custom rules
+  </Description>
+  <Rules>
+    <Rule Name="ControllerSuffixRule" CheckId="EP1000">
+      <Context>Class name that have a base class 'Controller' shoud have in the end suffix '...Controller'</Context>
+      <Description>Class name that have a base class 'Controller' shoud have in the end suffix '...Controller'</Description>
+    </Rule>
+  </Rules>
+</SourceAnalyzer>

@@ -1,0 +1,10 @@
+.vs/
+packages/
+StyleCopCustomRules/bin/
+StyleCopCustomRules/obj/
+WebApplication/bin/
+WebApplication/obj/
+CustomNuGetPackage/bin/
+CustomNuGetPackage/obj/
+NuGetPackageTest/bin/
+NuGetPackageTest/obj/

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <appSettings xdt:Transform="InsertIfMissing">      
+  </appSettings>
+  <appSettings>
+    <add key="Key1" xdt:Transform="Remove" xdt:Locator="Match(key)" />
+    <add key="Key2" xdt:Transform="Remove" xdt:Locator="Match(key)"/> 
+  </appSettings>
+</configuration>
